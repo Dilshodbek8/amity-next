@@ -2,4 +2,53 @@
 .nav {
   background-color: $mainColor;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  img {
+    cursor: pointer;
+  }
+  &__links {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    ul {
+      display: flex;
+      gap: 3rem;
+      li {
+        transition: 0.4s all linear;
+        padding: 6px 10px;
+        border-radius: 50px;
+        font-weight: 700;
+        font-size: 18px;
+        &:hover {
+          background-color: $primaryColor;
+          color: $mainColor;
+        }
+      }
+    }
+  }
+  &__langs {
+    display: flex;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .nav {
+    &__links {
+      ul {
+        display: none;
+      }
+    }
+  }
+}
+@media (max-width: 420px) {
+  .nav {
+    &__langs {
+      display: none;
+    }
+  }
 }
