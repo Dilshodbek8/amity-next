@@ -15,3 +15,42 @@ a {
   width: 86%;
   margin: 0 auto;
 }
+.primaryTab {
+  .react-tabs__tab {
+    background-color: $mainColor;
+    color: $primaryColor;
+
+    &--selected {
+      border-radius: 0 !important;
+      color: white !important;
+      border-color: $primaryColor !important;
+      background-color: $primaryColor !important;
+      border-radius: 50px !important;
+    }
+  }
+
+  .react-tabs {
+    ul {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: none;
+      li {
+        width: 30%;
+        font-size: 24px;
+        text-align: center;
+        border-radius: 50px;
+      }
+    }
+  }
+}
+.react-tabs__tab {
+  background-color: $mainColor;
+  color: $primaryColor;
+
+  &--selected {
+    border-radius: 0 !important;
+    color: white !important;
+    border-color: $primaryColor !important;
+    background-color: $primaryColor !important;
+  }
+}

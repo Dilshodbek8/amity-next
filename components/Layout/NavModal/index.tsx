@@ -1,20 +1,13 @@
-import routes from "../routes";
+import routes, { Links } from "../routes";
 import classes from "./navModal.module.scss";
 import Link from "next/link";
 import { exit } from "./../../../public/media/icons";
 import Image from "next/image";
-type Links = {
-  rel: String;
-  href: any;
-};
+
 const navModal = (toggleDrawer: any) => {
   const links = routes();
   return (
-    <div
-      role="presentation"
-      onKeyDown={toggleDrawer("left", false)}
-      className={classes.nav}
-    >
+    <div role="presentation" className={classes.nav}>
       <div className={classes.nav__links}>
         <div className={classes.nav__links_top}>
           <form action="">

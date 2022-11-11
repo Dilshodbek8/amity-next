@@ -25,6 +25,7 @@ import Twitter from "./Twitters.svg";
 import uz from "./uz.svg";
 import YouTube from "./YouTube.svg";
 import exit from "./exit.svg";
+import Telegram from "./Telegram.svg";
 
 export {
   aqa,
@@ -54,4 +55,5 @@ export {
   fMessage,
   pearson,
   exit,
+  Telegram,
 };

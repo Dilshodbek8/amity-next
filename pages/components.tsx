@@ -28,6 +28,9 @@ import {
   scroll,
   tel,
 } from "../public/media/icons";
+import TextInput from "../components/TextField";
+import ContactCard from "../components/Home/ContactCard";
+import MyTab from "../components/MyTab";
 export default function Components() {
   return (
     <div>
@@ -39,6 +42,40 @@ export default function Components() {
 
       <div className="container">
         <h1>components</h1>
+        <div className="primaryTab">
+          <MyTab
+            titles={["asd", "qwe", "zxz"]}
+            components={[
+              <h1>111sdassd</h1>,
+              <h1>222asdassd</h1>,
+              <h1>33asdassd</h1>,
+            ]}
+          />
+        </div>
+        <MyTab
+          titles={["asd", "qwe", "zxz"]}
+          components={[
+            <h1>111sdassd</h1>,
+            <h1>222asdassd</h1>,
+            <h1>33asdassd</h1>,
+          ]}
+        />
+
+        <ContactCard
+          data={{
+            icon: "message.svg",
+            title: "Email us:",
+            text: "admission@amityabudhabi.ae",
+            link: "mailto: admission@amityabudhabi.ae",
+          }}
+        />
+        <TextInput
+          fullWidth
+          error
+          errorLabel={"This is errored input"}
+          radius={"15"}
+          label="Outlined"
+        />
         <Image src={uz} width="40" height="40" alt="uz" />
         <Image src={Facebook} width="150" height="150" alt="uz" />
         <Image src={TikTok} width="150" height="150" alt="uz" />

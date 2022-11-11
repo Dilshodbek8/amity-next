@@ -1,3 +1,7 @@
+export type Links = {
+  rel: String;
+  href: any;
+};
 const routes = () => {
   const links = {
     nav: [
