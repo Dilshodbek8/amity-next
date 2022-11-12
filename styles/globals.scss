@@ -1,4 +1,6 @@
 @import "./variables.scss";
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
 * {
   box-sizing: border-box;
   padding: 0;
@@ -52,5 +54,22 @@ a {
     color: white !important;
     border-color: $primaryColor !important;
     background-color: $primaryColor !important;
+  }
+}
+.slick-dots {
+  transform: translateY(-30px);
+  li {
+    button {
+      &::before {
+        color: $primaryColor;
+      }
+    }
+    &.slick-active {
+      button {
+        &::before {
+          color: $mainColor;
+        }
+      }
+    }
   }
 }
