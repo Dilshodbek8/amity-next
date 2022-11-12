@@ -73,3 +73,20 @@ a {
     }
   }
 }
+.MuiButton-contained {
+  border-radius: 50px;
+  padding: 8px 25px;
+  font-weight: 600;
+}
+.btn_main {
+  .MuiButton-contained {
+    background-color: $mainColor;
+    color: $primaryColor;
+  }
+}
+.btn_primary {
+  .MuiButton-contained {
+    background-color: $primaryColor;
+    color: $mainColor;
+  }
+}

@@ -7,7 +7,7 @@ const routes = () => {
     nav: [
       {
         rel: "Programs",
-        href: "/",
+        href: "/programs",
       },
       {
         rel: "F.A.Q",
