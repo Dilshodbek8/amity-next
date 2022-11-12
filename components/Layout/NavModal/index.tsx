@@ -25,8 +25,8 @@ const navModal = (toggleDrawer: any) => {
           <div>
             <h2>About Us</h2>
             <ul>
-              {links.about?.map((l: Links) => (
-                <li>
+              {links.about?.map((l: Links, i: number) => (
+                <li key={i}>
                   <Link href={l.href}>{l.rel}</Link>
                 </li>
               ))}
@@ -35,8 +35,8 @@ const navModal = (toggleDrawer: any) => {
           <div>
             <h2>Admission</h2>
             <ul>
-              {links.admission?.map((l: Links) => (
-                <li>
+              {links.admission?.map((l: Links, i: number) => (
+                <li key={i}>
                   <Link href={l.href}>{l.rel}</Link>
                 </li>
               ))}
@@ -45,8 +45,8 @@ const navModal = (toggleDrawer: any) => {
           <div>
             <h2>Information</h2>
             <ul>
-              {links.information?.map((l: Links) => (
-                <li>
+              {links.information?.map((l: Links, i: number) => (
+                <li key={i}>
                   <Link href={l.href}>{l.rel}</Link>
                 </li>
               ))}

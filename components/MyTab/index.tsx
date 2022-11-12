@@ -25,11 +25,11 @@ export default function MyTab({ titles, components }: TabProps) {
       >
         <TabList className={classes.tab}>
           {titles?.map((t: string, i: number) => (
-            <Tab>{t}</Tab>
+            <Tab key={i}>{t}</Tab>
           ))}
         </TabList>
         {components?.map((c: any, i: number) => (
-          <TabPanel>{c}</TabPanel>
+          <TabPanel key={i}>{c}</TabPanel>
         ))}
       </Tabs>
     </div>

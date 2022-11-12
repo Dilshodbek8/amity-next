@@ -1,5 +1,5 @@
 import classes from "./nav.module.scss";
-import routes from "../routes";
+import routes, { Links } from "../routes";
 import Image from "next/image";
 import { logo, uz, en, ru, menu } from "./../../../public/media/icons";
 import Link from "next/link";
@@ -7,7 +7,6 @@ import * as React from "react";
 import Drawer from "@mui/material/Drawer";
 import navModal from "./../NavModal/";
 type Anchor = "top" | "left" | "bottom" | "right";
-
 
 export default function Nav() {
   const links = routes();
@@ -36,8 +35,8 @@ export default function Nav() {
       </Link>
       <div className={classes.nav__links}>
         <ul>
-          {links.nav?.map((l: Links) => (
-            <li>
+          {links.nav?.map((l: Links, i: number) => (
+            <li key={i}>
               <Link href={l.href}>{l.rel}</Link>
             </li>
           ))}

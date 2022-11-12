@@ -45,7 +45,9 @@ export default function MySlider({ sliders, show }: SliderProps) {
     <div className={classes.slider}>
       <Slider {...settings}>
         {sliders.map((s: any, i: number) => (
-          <div className={classes.slider_item}>{s}</div>
+          <div className={classes.slider_item} key={i}>
+            {s}
+          </div>
         ))}
       </Slider>
     </div>

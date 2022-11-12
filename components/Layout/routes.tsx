@@ -25,45 +25,45 @@ const routes = () => {
     about: [
       {
         rel: "Amity’s Welcome",
-        href: "/about",
+        href: "/amityWelcome",
       },
       {
         rel: "Founders",
-        href: "/about",
+        href: "/founders",
       },
       {
         rel: "Our Campus",
-        href: "/about",
+        href: "/ourCampus",
       },
       {
         rel: "Alumni",
-        href: "/about",
+        href: "/alumni",
       },
       {
         rel: "International Campus",
-        href: "/about",
+        href: "/internationalCampus",
       },
       {
         rel: "Policies",
-        href: "/about",
+        href: "/policies",
       },
     ],
     admission: [
       {
         rel: "Application Process",
-        href: "/about",
+        href: "/applicationProcess",
       },
       {
         rel: "Scholarship",
-        href: "/about",
+        href: "/scholarship",
       },
       {
         rel: "International Students",
-        href: "/about",
+        href: "/interStudents",
       },
       {
         rel: "Accommodation",
-        href: "/about",
+        href: "/accommodation",
       },
     ],
     information: [
@@ -73,35 +73,35 @@ const routes = () => {
       },
       {
         rel: "News & Events",
-        href: "/about",
+        href: "/news",
       },
       {
         rel: "Amity Global",
-        href: "/about",
+        href: "/amityGlobal",
       },
       {
         rel: "Students Life",
-        href: "/about",
+        href: "/studentsLife",
       },
       {
         rel: "Career Centre",
-        href: "/about",
+        href: "/careerCentre",
       },
       {
         rel: "Incubation Centre",
-        href: "/about",
+        href: "/incubation",
       },
       {
         rel: "Students Abroad Program",
-        href: "/about",
+        href: "/abroad",
       },
       {
         rel: "Student Affairs",
-        href: "/about",
+        href: "/affairs",
       },
       {
         rel: "Career with Amity",
-        href: "/about",
+        href: "/career",
       },
     ],
   };
