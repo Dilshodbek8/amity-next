@@ -6,6 +6,8 @@ type InputProps = {
   fullWidth?: Boolean;
   error?: Boolean;
   errorLabel?: String;
+  multiline?: Boolean;
+  rows?: number;
   onChange?: (
     e?:
       | React.ChangeEvent<HTMLInputElement>
@@ -28,8 +30,8 @@ export default function TextInput({
         sx={{
           border: "none",
           borderRadius: radius ? "15px" : "0",
+          backgroundColor: "#F4F4F8",
           "& fieldset": {
-            backgroundColor: "#F4F4F8",
             borderColor: "#ffc600",
             borderRadius: radius ? "15px" : "0",
           },

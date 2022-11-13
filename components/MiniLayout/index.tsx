@@ -1,7 +1,8 @@
 import classes from "./MiniLayout.module.scss";
 import Navigation from "../Navigation";
 import routes from "../Layout/routes";
-export default function MiniLayout({ children }: any) {
+import MainTitle from "../Maintitle";
+export default function MiniLayout({ title, children }: any) {
   const links = routes();
   return (
     <div className={classes.body}>
@@ -10,7 +11,7 @@ export default function MiniLayout({ children }: any) {
         <div className={classes.body_bottom}>
           <div className={classes.body_bottom_c}>
             <h3>breadcrumb</h3>
-            <h1>title</h1>
+            <MainTitle title={title} style="card" textposition="center" />
           </div>
 
           <div className={classes.body_bottom_l}>

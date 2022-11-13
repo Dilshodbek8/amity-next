@@ -1,5 +1,6 @@
 import classes from "./style.module.scss";
 import GlobalCard, { CardProps } from "../../components/GlobalCard";
+import MainTitle from "../../components/Maintitle";
 export default function Programs() {
   const data = [
     {
@@ -25,6 +26,8 @@ export default function Programs() {
   ];
   return (
     <div className={classes.global}>
+      <h3>breadcrumb</h3>
+      <MainTitle title="Amity Global" style="whitetitle" />
       <div className="container">
         <div className={classes.global_cards}>
           {data?.map((c: CardProps, i: number) => (

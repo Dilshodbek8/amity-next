@@ -14,37 +14,41 @@ export default function MySlider({ sliders, show }: SliderProps) {
     autoplaySpeed: 2000,
     slidesToShow: show || 1,
     slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 4,
-        },
-      },
-      {
-        breakpoint: 800,
-        settings: {
-          slidesToShow: 3,
-        },
-      },
-      {
-        breakpoint: 650,
-        settings: {
-          slidesToShow: 2,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-    ],
+
+    responsive:
+      show != 1
+        ? [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 4,
+              },
+            },
+            {
+              breakpoint: 800,
+              settings: {
+                slidesToShow: 3,
+              },
+            },
+            {
+              breakpoint: 650,
+              settings: {
+                slidesToShow: 2,
+              },
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+              },
+            },
+          ]
+        : null,
   };
   return (
     <div className={classes.slider}>
       <Slider {...settings}>
-        {sliders.map((s: any, i: number) => (
+        {sliders?.map((s: any, i: number) => (
           <div className={classes.slider_item} key={i}>
             {s}
           </div>

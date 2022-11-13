@@ -2,8 +2,9 @@ import Button from "@mui/material/Button";
 import classes from "./Header.module.scss";
 import MyButton from "../MyButton";
 import { useRouter } from "next/router";
+import MainTitle from "../Maintitle";
 export type HeaderProps = {
-  title: String;
+  title: string;
   white?: Boolean;
   btns?: { title: string; id: string }[];
 };
@@ -18,7 +19,7 @@ export default function Header({ title, white, btns }: HeaderProps) {
   return (
     <div className={`${classes.header} ${white ? "" : classes.header_bg}`}>
       <p>breadcrumb</p>
-      <h1>{title}</h1>
+      <MainTitle title={title} style="card" />
       {btns ? (
         <div className="container">
           <div className={classes.header_btn}>
