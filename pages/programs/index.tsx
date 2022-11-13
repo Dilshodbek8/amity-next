@@ -1,7 +1,7 @@
 import classes from "./style.module.scss";
-import MiniLayout from "../../components/MiniLayout";
 import Header from "../../components/Header";
 import { useRouter } from "next/router";
+import ProgramBody from "../../components/Programs/ProgramBody";
 export default function Programs() {
   const router = useRouter();
   return (
@@ -15,7 +15,7 @@ export default function Programs() {
         ]}
       />
       <div className="container">
-        <h1>Programs page {router.query.id}</h1>
+        <ProgramBody />
       </div>
     </>
   );

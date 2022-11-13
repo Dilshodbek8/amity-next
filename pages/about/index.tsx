@@ -1,6 +1,6 @@
 import classes from "./style.module.scss";
 import MiniLayout from "../../components/MiniLayout";
-import Programs from "../../components/Programs";
+import Programs from "../../components/Info";
 import AboutCard from "../../components/AboutCard";
 export default function About() {
   const programs = [

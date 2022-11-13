@@ -40,6 +40,8 @@
     &_bottom {
       gap: 1rem 0;
       grid-template-columns: 1fr;
+      padding: 0 !important;
+
       &_l {
         grid-column: 1 / 2;
       }

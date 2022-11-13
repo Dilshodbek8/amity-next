@@ -28,3 +28,14 @@
     }
   }
 }
+@media (max-width: 900px) {
+  .header {
+    &_btn {
+      flex-direction: column;
+      gap: 1rem;
+      div {
+        width: 100%;
+      }
+    }
+  }
+}
