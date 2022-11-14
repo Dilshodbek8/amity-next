@@ -5,11 +5,14 @@
   padding: 20px 10px;
   border-radius: 30px;
   background: #fefefe;
+  gap: 1rem;
   box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.08);
   &__icon {
     position: relative;
   }
   &__text {
+    word-break: break-all;
+    overflow-wrap: break-word;
     h2 {
       color: $mainColor;
       font-family: sans-serif;

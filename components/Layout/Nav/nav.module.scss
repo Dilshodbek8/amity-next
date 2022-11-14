@@ -6,6 +6,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 50px;
+  z-index: 999;
+  position: relative;
   img {
     cursor: pointer;
   }

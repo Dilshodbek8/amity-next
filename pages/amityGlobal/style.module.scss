@@ -1,13 +1,16 @@
 @import "./../../styles/variables.scss";
 .global {
   background-color: $mainColor;
+  color: white;
+  text-align: center;
   &_cards {
+    text-align: start;
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
     justify-content: space-between;
     & > div {
-      width: 23%;
+      width: 24%;
     }
   }
 }

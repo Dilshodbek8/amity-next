@@ -14,8 +14,8 @@ const routes = () => {
         href: "/faq",
       },
       {
-        rel: "Contact ",
-        href: "/contact",
+        rel: "About",
+        href: "/about",
       },
       {
         rel: "Apply",
