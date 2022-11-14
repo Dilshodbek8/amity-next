@@ -39,6 +39,9 @@ import Header from "../components/Header";
 import MainTitle from "../components/Maintitle";
 import ProgramsCard from "../components/Programscard";
 import Newscard from "../components/Newscard";
+import InfoCard from "../components/Programs/InfoCard";
+import Infocard from "../components/Informationcard";
+import Informationcard from "../components/Informationcard";
 
 const data = [
   {
@@ -95,8 +98,8 @@ export default function Components() {
 
       <div className="container">
         <ProgramsCard data={data} />
-
         <Newscard datas={newsdata} />
+        <Informationcard />
       </div>
       <Header
         title={"Programs"}
