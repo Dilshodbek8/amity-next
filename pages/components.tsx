@@ -37,6 +37,23 @@ import ContactCard from "../components/Home/ContactCard";
 import MyTab from "../components/MyTab";
 import Header from "../components/Header";
 import MainTitle from "../components/Maintitle";
+import ProgramsCard from "../components/Programscard";
+
+const data = [
+  {
+    img: "/media/images/upgraduate.png",
+    title: "Undergraduate",
+  },
+  {
+    img: "/media/images/postgraduate.png",
+    title: "Postgraduate",
+  },
+  {
+    img: "/media/images/foundationprogram.png",
+    title: "International Foundation Program",
+  },
+];
+
 export default function Components() {
   return (
     <div>
@@ -53,6 +70,10 @@ export default function Components() {
         style="blueborder"
         textposition="center"
       />
+
+      <div className="container">
+        <ProgramsCard data={data} />
+      </div>
 
       <Header
         title={"Programs"}
