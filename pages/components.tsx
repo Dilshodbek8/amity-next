@@ -38,6 +38,7 @@ import MyTab from "../components/MyTab";
 import Header from "../components/Header";
 import MainTitle from "../components/Maintitle";
 import ProgramsCard from "../components/Programscard";
+import Newscard from "../components/Newscard";
 
 const data = [
   {
@@ -51,6 +52,27 @@ const data = [
   {
     img: "/media/images/foundationprogram.png",
     title: "International Foundation Program",
+  },
+];
+
+const newsdata = [
+  {
+    date: "Mon Nov 14 2022 12:11:05 GMT+0500 (Uzbekistan Standard Time)",
+    img: "/media/images/card.png",
+    categ: "Category",
+    text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+  },
+  {
+    date: "Mon Nov 14 2022 12:11:05 GMT+0500 (Uzbekistan Standard Time)",
+    img: "/media/images/card.png",
+    categ: "Category",
+    text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+  },
+  {
+    date: "Mon Nov 14 2022 12:11:05 GMT+0500 (Uzbekistan Standard Time)",
+    img: "/media/images/card.png",
+    categ: "Category",
+    text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
   },
 ];
 
@@ -73,8 +95,9 @@ export default function Components() {
 
       <div className="container">
         <ProgramsCard data={data} />
-      </div>
 
+        <Newscard datas={newsdata} />
+      </div>
       <Header
         title={"Programs"}
         white
