@@ -95,7 +95,7 @@ export default function Components() {
       />
 
       <div className="container">
-        <Breadcrumb />
+        <Breadcrumb className={""} />
         <ProgramsCard data={data} />
         <Newscard datas={newsdata} />
         <Informationcard />

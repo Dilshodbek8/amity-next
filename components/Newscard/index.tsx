@@ -2,14 +2,12 @@ import React from "react";
 import classes from "./newscard.module.scss";
 import Newscardsingle from "./Newcardsingle";
 interface NewscardProps {
-  datas: [
-    {
-      date: string;
-      img: string;
-      categ: string;
-      text: string;
-    }
-  ];
+  datas: Array<{
+    date: string;
+    img: string;
+    categ: string;
+    text: string;
+  }>;
 }
 
 const Newscard = (props: NewscardProps) => {

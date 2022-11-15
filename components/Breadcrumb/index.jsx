@@ -22,7 +22,7 @@ const BreadCrumb = ({ className }) => {
   const router = useRouter();
   const breadcrumbs = generateBreadcrumbs(router);
   return (
-    <div >
+    <div>
       <Breadcrumbs
         separator=": :"
         aria-label="breadcrumb"

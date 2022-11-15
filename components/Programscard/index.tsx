@@ -2,12 +2,10 @@ import React from "react";
 import ProgramsCard from "./Programscard";
 import classes from "./programscard.module.scss";
 interface wrapCardProps {
-  data: [
-    {
-      title: string;
-      img: string;
-    }
-  ];
+  data: Array<{
+    img: string;
+    title: string;
+  }>;
 }
 
 const wrapCard = (props: wrapCardProps) => {
@@ -18,7 +16,6 @@ const wrapCard = (props: wrapCardProps) => {
           <ProgramsCard title={item.title} img={item.img} />
         ))}
       </div>
-      ;
     </>
   );
 };
