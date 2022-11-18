@@ -24,7 +24,7 @@ export default function Partners() {
   ));
   return (
     <div className={classes.card}>
-      <MySlider show={5} sliders={elems} />
+      <MySlider show={5} sliders={elems} dotsFalse />
     </div>
   );
 }

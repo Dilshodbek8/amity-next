@@ -1,10 +1,10 @@
 import Button from "@mui/material/Button";
 export type BtnProps = {
-  primary?: Boolean;
-  title: String;
+  primary?: boolean;
+  title: string;
   onClick?: any;
   href?: string;
-  // fullWidth?: Boolean;
+  fullWidth?: boolean;
 };
 export default function MyButton({
   primary,

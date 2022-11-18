@@ -1,12 +1,12 @@
 import TextField from "@mui/material/TextField";
 
 type InputProps = {
-  radius?: String;
-  label?: String;
-  fullWidth?: Boolean;
-  error?: Boolean;
-  errorLabel?: String;
-  multiline?: Boolean;
+  radius?: string;
+  label?: string;
+  fullWidth?: boolean;
+  error?: boolean;
+  errorLabel?: string;
+  multiline?: boolean;
   rows?: number;
   onChange?: (
     e?:
@@ -24,7 +24,6 @@ export default function TextInput({
     <>
       <TextField
         helperText={errorLabel}
-        label={label}
         variant="outlined"
         {...props}
         sx={{

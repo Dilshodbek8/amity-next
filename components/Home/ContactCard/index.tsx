@@ -2,9 +2,9 @@ import classes from "./ContactCard.module.scss";
 import Image from "next/image";
 
 export type CardProps = {
-  icon: String;
-  title: String;
-  text: String;
+  icon: string;
+  title: string;
+  text: string;
   link?: string;
 };
 export default function ContactCard({ icon, title, text, link }: CardProps) {

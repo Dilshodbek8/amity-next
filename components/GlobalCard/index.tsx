@@ -1,9 +1,9 @@
 import classes from "./GlobalCard.module.scss";
 import Image from "next/image";
 export type CardProps = {
-  img: String;
-  title: String;
-  text: String;
+  img: string;
+  title: string;
+  text: string;
 };
 export default function GlobalCard({ img, title, text }: CardProps) {
   return (

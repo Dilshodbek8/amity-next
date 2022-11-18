@@ -6,7 +6,7 @@ import MainTitle from "../Maintitle";
 import Breadcrumb from "../Breadcrumb";
 export type HeaderProps = {
   title: string;
-  white?: Boolean;
+  white?: boolean;
   btns?: { title: string; id: string }[];
 };
 export default function Header({ title, white, btns }: HeaderProps) {

@@ -206,12 +206,10 @@ export default function Components() {
         />
 
         <ContactCard
-          data={{
-            icon: "message.svg",
-            title: "Email us:",
-            text: "admission@amityabudhabi.ae",
-            link: "mailto: admission@amityabudhabi.ae",
-          }}
+          icon={"message.svg"}
+          title={"Email us:"}
+          text={"admission@amityabudhabi.ae"}
+          link={"mailto: admission@amityabudhabi.ae"}
         />
         <TextInput
           fullWidth

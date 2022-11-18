@@ -3,10 +3,11 @@ import classes from "./Slider.module.scss";
 export type SliderProps = {
   sliders: any[];
   show?: number;
+  dotsFalse?: Boolean;
 };
-export default function MySlider({ sliders, show }: SliderProps) {
+export default function MySlider({ sliders, show, dotsFalse }: SliderProps) {
   const settings = {
-    dots: true,
+    dots: !dotsFalse,
     infinite: true,
     autoplay: true,
     speed: 1000,
