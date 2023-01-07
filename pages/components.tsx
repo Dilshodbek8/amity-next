@@ -129,6 +129,7 @@ export default function Components() {
           show={6}
           sliders={[
             <TextInput
+              key={"1"}
               fullWidth
               error
               errorLabel={"This is errored input"}
@@ -136,6 +137,7 @@ export default function Components() {
               label="Outlined"
             />,
             <TextInput
+              key={"2"}
               fullWidth
               error
               errorLabel={"This is errored input"}
@@ -143,6 +145,7 @@ export default function Components() {
               label="Outlined"
             />,
             <TextInput
+              key={"3"}
               fullWidth
               error
               errorLabel={"This is errored input"}
@@ -150,6 +153,7 @@ export default function Components() {
               label="Outlined"
             />,
             <TextInput
+              key={"4"}
               fullWidth
               error
               errorLabel={"This is errored input"}
@@ -157,6 +161,7 @@ export default function Components() {
               label="Outlined"
             />,
             <TextInput
+              key={"5"}
               fullWidth
               error
               errorLabel={"This is errored input"}
@@ -164,6 +169,7 @@ export default function Components() {
               label="Outlined"
             />,
             <TextInput
+              key={"6"}
               fullWidth
               error
               errorLabel={"This is errored input"}
@@ -171,6 +177,7 @@ export default function Components() {
               label="Outlined"
             />,
             <TextInput
+              key={"7"}
               fullWidth
               error
               errorLabel={"This is errored input"}
@@ -178,6 +185,7 @@ export default function Components() {
               label="Outlined"
             />,
             <TextInput
+              key={"8"}
               fullWidth
               error
               errorLabel={"This is errored input"}
@@ -190,18 +198,18 @@ export default function Components() {
           <MyTab
             titles={["asd", "qwe", "zxz"]}
             components={[
-              <h1>111sdassd</h1>,
-              <h1>222asdassd</h1>,
-              <h1>33asdassd</h1>,
+              <h1 key={"1"}>111sdassd</h1>,
+              <h1 key={"2"}>222asdassd</h1>,
+              <h1 key={"3"}>33asdassd</h1>,
             ]}
           />
         </div>
         <MyTab
           titles={["asd", "qwe", "zxz"]}
           components={[
-            <h1>111sdassd</h1>,
-            <h1>222asdassd</h1>,
-            <h1>33asdassd</h1>,
+            <h1 key={"1"}>111sdassd</h1>,
+            <h1 key={"2"}>222asdassd</h1>,
+            <h1 key={"3"}>33asdassd</h1>,
           ]}
         />
 

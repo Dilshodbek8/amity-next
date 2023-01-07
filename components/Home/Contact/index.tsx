@@ -41,6 +41,7 @@ export default function Contact() {
           <div className={classes.cards_left}>
             {data.map((d: CardProps, i: number) => (
               <ContactCard
+                key={i}
                 icon={d?.icon}
                 text={d?.text}
                 title={d?.title}

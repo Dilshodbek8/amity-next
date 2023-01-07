@@ -44,7 +44,9 @@ export default function MyTable({ rows, cols, fields }: TableProps) {
           <TableHead>
             <TableRow>
               {rows?.map((r: any, i: number) => (
-                <StyledTableCell align="center">{r}</StyledTableCell>
+                <StyledTableCell key={i} align="center">
+                  {r}
+                </StyledTableCell>
               ))}
             </TableRow>
           </TableHead>
@@ -52,7 +54,12 @@ export default function MyTable({ rows, cols, fields }: TableProps) {
             {cols.map((r: any, i: number) => (
               <StyledTableRow key={i}>
                 {fields.map((f: any, i: number) => (
-                  <StyledTableCell align="center" component="th" scope="row">
+                  <StyledTableCell
+                    key={i}
+                    align="center"
+                    component="th"
+                    scope="row"
+                  >
                     {r[fields[i]]}
                   </StyledTableCell>
                 ))}

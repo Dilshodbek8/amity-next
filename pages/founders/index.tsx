@@ -22,7 +22,7 @@ export default function Founders() {
             "Vice Chancellor",
           ]}
           components={[
-            <div className={classes.body}>
+            <div key={"1"} className={classes.body}>
               <div className={classes.body_top}>
                 <div>
                   <h2>Dr. Ashok K. Chauhan</h2>
@@ -80,7 +80,7 @@ export default function Founders() {
                 <Programs title="Our Programmes" titles={programs} />
               </div> */}
             </div>,
-            <div className={classes.body_cards}>
+            <div key={"2"} className={classes.body_cards}>
               <div className={classes.card}>
                 <div>
                   <h2>Dr. Atul Chauhan</h2>
@@ -126,7 +126,7 @@ export default function Founders() {
                 </div>
               </div>
             </div>,
-            <div className={classes.body_cards}>
+            <div key={"3"} className={classes.body_cards}>
               <div className={classes.card}>
                 <div>
                   <h2>Maj. Gen. K. Jai Singh</h2>
@@ -177,11 +177,11 @@ export default function Founders() {
                 </div>
               </div>
             </div>,
-            <div className={classes.card_vertical}>
+            <div key={"4"} className={classes.card_vertical}>
               <div>
                 <h2>Dr. B. Shukla</h2>
                 <h4>Vice Chancellor, Amity University Uttar Pradesh</h4>
-                <h4>M.Tech. (IIT Kharagpur), Ph.D. Queen's University, U.K.</h4>
+                <h4>M.Tech. (IIT Kharagpur), Ph.D. Queens University, U.K.</h4>
                 <h4>Council member of AIMA</h4>
                 <p>
                   At Amity, we focus on each & every student, to bring out their

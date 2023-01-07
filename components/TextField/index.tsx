@@ -26,7 +26,7 @@ export default function TextInput({
         helperText={errorLabel}
         variant="outlined"
         label={label}
-        {...props}
+        // {...props}
         sx={{
           border: "none",
           borderRadius: radius ? "15px" : "0",
