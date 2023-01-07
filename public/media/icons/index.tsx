@@ -23,7 +23,7 @@ import tel from "./tel.svg";
 import TikTok from "./TikTok.svg";
 import Twitter from "./Twitters.svg";
 import uz from "./uz.svg";
-import YouTube from "./YouTube.svg";
+import YouTube from "./Youtube.svg";
 import exit from "./exit.svg";
 import Telegram from "./Telegram.svg";
 
