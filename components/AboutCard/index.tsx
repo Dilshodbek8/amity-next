@@ -13,21 +13,20 @@ export default function AboutCard() {
           style="whitetitle"
         />
         <p>
-          Amity University Dubai spans across 700,000 square feet. Not only is
-          it environmentally sustainable, with intelligent building management
-          systems, such as motion-sensor lights, the classrooms are digitised
-          and there are sports and fitness facilities to help flex your athletic
-          aspirations or simply stay fit and healthy. Amity University Dubai is
-          also home to over 30 specialised laboratories to provide students with
-          hands-on experience and insight into the future of industries.
+          We are a multifaceted university in Tashkent, committed to delivering
+          world-class education and research. At Amity University Tashkent
+          Campus, you’ll gain more than just an outstanding education, you’ll be
+          exposed to a world of opportunities and learn from faculty who are
+          masters in their field.
         </p>
         <p>
-          If it’s space you’re after, you won’t be disappointed. Students have
-          access to various areas for brainstorming and studying. Designed by a
-          world-renowned firm, Canon Design, each area has been carefully
-          thought through, with bold colours strategically placed throughout the
-          walkways and classrooms to inspire creativity and create a strong
-          sense of community.
+          The Campus is located in Tashkent and has its hostel next to the
+          Campus. As you immerse yourself in this community, you will find
+          student resources, services, and a constant stream of fun activities
+          and excursions that will make your studies truly memorable. Watch the
+          video to learn more about facilities and meet our admissions
+          representative to learn more about our degree programs and decide what
+          suits best for you.
         </p>
       </div>
     </div>

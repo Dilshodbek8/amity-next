@@ -11,7 +11,7 @@ import Facebook from "./Facebook.svg";
 import Instagram from "./Instagram.svg";
 import LinkedIn from "./LinkedIn.svg";
 import location from "./location.svg";
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import menu from "./menu.svg";
 import message from "./message.svg";
 import oxford from "./oxford.svg";

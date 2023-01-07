@@ -5,8 +5,9 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "Cormorant", serif;
+  font-family: "Open Sans", sans-serif;
   list-style: none;
+  font-weight: 300;
 }
 a {
   color: inherit;
@@ -45,6 +46,7 @@ a {
     }
   }
 }
+
 .react-tabs__tab {
   background-color: $mainColor;
   color: $primaryColor;
