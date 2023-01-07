@@ -8,7 +8,7 @@ export default function Alumni() {
       <MyTab
         titles={["2022", "2021"]}
         components={[
-          <div className={classes.body}>
+          <div key={"1"} className={classes.body}>
             <div className={classes.body_img}>
               <Image
                 src={"/media/images/campus.jfif"}
@@ -40,7 +40,7 @@ export default function Alumni() {
               unlike any other.
             </p>
           </div>,
-          <div className={classes.body}>
+          <div key={"2"} className={classes.body}>
             <h2>2021</h2>
             <div className={classes.body_img}>
               <Image

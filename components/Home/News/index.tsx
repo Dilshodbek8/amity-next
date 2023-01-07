@@ -29,8 +29,8 @@ export default function News() {
       text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
     },
   ];
-  const e = newsdata.map((dat: any) => (
-    <div className={classes.card}>
+  const e = newsdata.map((dat: any, i: number) => (
+    <div key={i} className={classes.card}>
       <Newscardsingle
         date={dat.date}
         text={dat.text}

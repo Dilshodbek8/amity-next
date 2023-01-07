@@ -13,7 +13,7 @@ export default function Partners() {
     "pearson.svg",
   ];
   const elems = partners.map((p: string, i: number) => (
-    <div className={classes.card_img}>
+    <div key={i} className={classes.card_img}>
       <Image
         src={`/media/icons/${p}`}
         alt="partners"

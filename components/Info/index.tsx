@@ -11,7 +11,7 @@ export default function Programs({ title, titles }: ProgramsProps) {
       <MainTitle textposition="left" style="ordinary" title={title} />
       <ul>
         {titles?.map((t: string, i: number) => (
-          <li key={i}>
+          <li  key={i}>
             <span>
               <Image
                 src={`/media/icons/checked.svg`}

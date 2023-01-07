@@ -33,7 +33,7 @@ export default function Showcase() {
     },
   ];
   const elems = data?.map((d: ShowcaseProps, i: number) => (
-    <div className={classes.body}>
+    <div key={i} className={classes.body}>
       <ShowcaseCard
         img={d?.img}
         title={d?.title}

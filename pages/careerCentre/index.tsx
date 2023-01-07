@@ -19,6 +19,7 @@ export default function CareerCentre() {
             titles={["About Career Center", "MOU", "Internship", "Contacts"]}
             components={[
               <MyTable
+                key={"1"}
                 rows={["Name", "Count", "Price", "Date"]}
                 cols={cols}
                 fields={["name", "count", "price", "year"]}

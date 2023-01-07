@@ -12,8 +12,8 @@ const wrapCard = (props: wrapCardProps) => {
   return (
     <>
       <div className={classes.wrapCard}>
-        {props.data.map((item) => (
-          <ProgramsCard title={item.title} img={item.img} />
+        {props.data.map((item: any, i: number) => (
+          <ProgramsCard key={i} title={item.title} img={item.img} />
         ))}
       </div>
     </>

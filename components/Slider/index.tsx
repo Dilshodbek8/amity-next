@@ -44,7 +44,7 @@ export default function MySlider({ sliders, show, dotsFalse }: SliderProps) {
               },
             },
           ]
-        : null,
+        : undefined,
   };
   return (
     <div className={classes.slider}>

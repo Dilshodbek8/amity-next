@@ -17,7 +17,7 @@ export default function Founders() {
         <MyTab
           titles={["Founders", "Directors"]}
           components={[
-            <div className={classes.body}>
+            <div key={"1"} className={classes.body}>
               <h2>
                 Amity International School Abu Dhabi is part of the Amity
                 Education Group, a not-for-profit Education Foundation with
@@ -58,7 +58,7 @@ export default function Founders() {
                 <Programs title="Our Programmes" titles={programs} />
               </div>
             </div>,
-            <div>
+            <div key={"2"}>
               <h2>
                 Amity International School Abu Dhabi is part of the Amity
                 Education Group, a not-for-profit Education Foundation with

@@ -14,9 +14,9 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Cormorant:wght@700&display=swap"
             rel="stylesheet"
           ></link>
-          <script src="https://telegram.org/js/telegram-web-app.js" />
+          {/* <script src="https://telegram.org/js/telegram-web-app.js" />
           <script src="../../Bot/bot.js" />
-          <script src="../../public/tawkto" />
+          <script src="../../public/tawkto" /> */}
         </Head>
         <body>
           <Main />

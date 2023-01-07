@@ -26,6 +26,7 @@ export default function Header({ title, white, btns }: HeaderProps) {
           <div className={classes.header_btn}>
             {btns?.map((b: { title: string; id: string }, i: number) => (
               <MyButton
+                key={i}
                 primary={router.query.id != b?.id}
                 title={b?.title}
                 onClick={() => setTab(b?.id)}

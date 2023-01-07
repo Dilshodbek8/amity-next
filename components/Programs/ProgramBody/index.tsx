@@ -38,7 +38,7 @@ export default function ProgramBody() {
       <div className={classes.body}>
         <div className={classes.body_info}>
           {data?.map((d: InfoCardProps, i: number) => (
-            <InfoCard img={d?.img} name={d?.name} title={d?.title} />
+            <InfoCard key={i} img={d?.img} name={d?.name} title={d?.title} />
           ))}
         </div>
 
@@ -46,6 +46,7 @@ export default function ProgramBody() {
         <div className={classes.body_why}>
           {data2?.map((d: InfoCardProps, i: number) => (
             <InfoCard
+              key={i}
               img={d?.img}
               name={d?.name}
               title={d?.title}
@@ -59,6 +60,7 @@ export default function ProgramBody() {
             titles={["General", "English language", "Math", "Age"]}
             components={[
               <Entry
+                key={"1"}
                 title="Applicants should satisfy at a minimum one of the following
             requirements:"
                 text={[
@@ -69,6 +71,7 @@ export default function ProgramBody() {
                 ]}
               />,
               <Entry
+                key={"2"}
                 title="Applicants should satisfy at a minimum one of the following
           requirements:"
                 text={[
@@ -79,6 +82,7 @@ export default function ProgramBody() {
                 ]}
               />,
               <Entry
+                key={"3"}
                 title="Applicants should satisfy at a minimum one of the following
         requirements:"
                 text={[

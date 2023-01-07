@@ -13,8 +13,9 @@ interface NewscardProps {
 const Newscard = (props: NewscardProps) => {
   return (
     <div className={classes.wrapCards}>
-      {props.datas.map((dat) => (
+      {props.datas.map((dat: any, i: number) => (
         <Newscardsingle
+          key={i}
           date={dat.date}
           text={dat.text}
           categ={dat.categ}
