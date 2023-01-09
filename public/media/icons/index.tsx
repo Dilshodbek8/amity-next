@@ -11,7 +11,7 @@ import Facebook from "./Facebook.svg";
 import Instagram from "./Instagram.svg";
 import LinkedIn from "./LinkedIn.svg";
 import location from "./location.svg";
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import menu from "./menu.svg";
 import message from "./message.svg";
 import oxford from "./oxford.svg";
@@ -23,7 +23,7 @@ import tel from "./tel.svg";
 import TikTok from "./TikTok.svg";
 import Twitter from "./Twitters.svg";
 import uz from "./uz.svg";
-import YouTube from "./YouTube.svg";
+import YouTube from "./Youtube.svg";
 import exit from "./exit.svg";
 import Telegram from "./Telegram.svg";
 

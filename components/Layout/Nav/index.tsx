@@ -31,7 +31,7 @@ export default function Nav() {
   return (
     <nav className={classes.nav}>
       <Link href="/">
-        <Image src={logo} width="160" height="80" alt="logo" />
+        <Image src={logo} width="160" height="60" alt="logo" />
       </Link>
       <div className={classes.nav__links}>
         <ul>

@@ -23,23 +23,39 @@ export default function Footer() {
         <div className={classes.footer_container}>
           <div className={classes.footer_top}>
             <div className={classes.footer_left}>
-              <Image src={logo} width="160" height="80" alt="logo" />
+              <Image src={logo} width="160" height="60" alt="logo" />
               <div className={classes.footer_info}>
                 <Image src={fLocation} width="15" height="15" alt="location" />
-                <p>P.O. Box 345019 Dubai International Academic City</p>
+                <p>
+                  Tashkent City, Street Labzak, Building-70, 100028, Uzbekistan
+                </p>
               </div>
               <div className={classes.footer_info}>
                 <Image src={fMessage} width="15" height="15" alt="location" />
                 <p>
-                  <a href="mailto: info@amityuniversity.com">
-                    info@amityuniversity.com
+                  <a href="mailto: admission@amity.uz">admission@amity.uz</a>
+                </p>
+              </div>
+              <div className={classes.footer_info}>
+                <Image src={fMessage} width="15" height="15" alt="location" />
+                <p>
+                  <a href="mailto: info@amity.uz">info@amity.uz</a>
+                </p>
+              </div>
+              <div className={classes.footer_info}>
+                <Image src={fTel} width="15" height="15" alt="location" />
+                <p>
+                  <a href="tel: +9998712079003">
+                    +9998712079003, +99871 2079008 (Marketing Department)
                   </a>
                 </p>
               </div>
               <div className={classes.footer_info}>
                 <Image src={fTel} width="15" height="15" alt="location" />
                 <p>
-                  <a href="tel: +1 (123) 456 7890">+1 (123) 456 7890</a>
+                  <a href="tel: +998712079006">
+                    +998712079006 +998712079007 (Admission Department){" "}
+                  </a>
                 </p>
               </div>
             </div>

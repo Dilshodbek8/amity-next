@@ -2,6 +2,7 @@ import classes from "./style.module.scss";
 import MiniLayout from "../../components/MiniLayout";
 import Programs from "../../components/Info";
 import AboutCard from "../../components/AboutCard";
+import MainTitle from "../../components/Maintitle";
 export default function About() {
   const programs = [
     "Cater to the individual needs of every child (student-centred).",
@@ -13,31 +14,41 @@ export default function About() {
     <>
       <MiniLayout title={"About"}>
         <div className={classes.body}>
-          <h2>
-            Amity International School Abu Dhabi is part of the Amity Education
-            Group, a not-for-profit Education Foundation with campuses across
-            the world.
-          </h2>
+          <MainTitle title="AMITY UNIVERSITY IN TASHKENT" />
+
           <p>
-            Our school was founded in September 2015 as a small primary school
-            providing the National Curriculum of England and Wales for boys and
-            girls. The school’s popularity amongst the Abu Dhabi community has
-            grown rapidly. Six years later, the school has grown by over 600%
-            and now caters for a diverse range of pupils aged 3 to 18 with an
-            equally diverse range of interests, backgrounds, and aspirations.
+            Amity University in Tashkent was established by the Decree of the
+            President of the Republic of Uzbekistan dated January 7, 2019 No
+            PP-4097 and the academic year started from 2019.
           </p>
           <p>
-            The school features state-of-the-art, unrivalled facilities that,
-            together with an outstanding team of educators and support staff,
-            help pupils to fulfil their academic aspirations, as well as develop
-            into independent, confident, global citizens and life-long learners.
+            Amity University in Tashkent offers career focused programs at the
+            Foundation, Undergraduate and Postgraduate levels in diverse
+            disciplines of higher education, including Information Technology,
+            Economics, Management and Tourism.
           </p>
           <p>
-            With a wide range of subjects and co-curricular activities, we
-            ensure that every child’s needs, interests, and talents are catered
-            for. We take great pride in the culturally diverse and caring
-            environment that we provide for our pupils and the global outlook
-            that we foster.
+            Amity University in Tashkent is committed to bringing world class
+            education with commendable research and innovation in alignment with
+            the strategic vision of Uzbekistan.
+          </p>
+          <p>
+            Amity’s highly practical and industry focused curriculum has been
+            conceptualized in alignment with the region’s talent-needs, thus
+            opening up a world of opportunities for students. It’s focus on
+            industry led education has resulted in a curriculum that is
+            developed in close partnership with industry.
+          </p>
+          <p>
+            Another hallmark of Amity is its endeavor to create modern hi-tech
+            learning environments, through facilities and infrastructure that is
+            globally benchmarked and state-of-the-art.
+          </p>
+          <p>
+            More than 750 students are currently enrolled in Amity University in
+            Tashkent. Graduates are awarded a standard diploma of Amity
+            University (Republic of India), which is recognized as a document of
+            higher education in the Republic of Uzbekistan.
           </p>
           <div className={classes.body_programs}>
             <Programs title="Our Programmes" titles={programs} />

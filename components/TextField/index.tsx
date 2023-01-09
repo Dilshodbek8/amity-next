@@ -25,6 +25,7 @@ export default function TextInput({
       <TextField
         helperText={errorLabel}
         variant="outlined"
+        label={label}
         // {...props}
         sx={{
           border: "none",

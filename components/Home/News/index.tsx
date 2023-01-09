@@ -30,7 +30,7 @@ export default function News() {
     },
   ];
   const e = newsdata.map((dat: any, i: number) => (
-    <div key={i} className={classes.card}>
+    <div className={classes.card} key={i}>
       <Newscardsingle
         date={dat.date}
         text={dat.text}
