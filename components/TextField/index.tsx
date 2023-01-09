@@ -18,14 +18,20 @@ export default function TextInput({
   radius,
   label,
   errorLabel,
+  fullWidth,
+  multiline,
+  rows,
   ...props
 }: InputProps) {
   return (
     <>
       <TextField
+        multiline={multiline}
         helperText={errorLabel}
         variant="outlined"
         label={label}
+        fullWidth={fullWidth}
+        rows={rows}
         // {...props}
         sx={{
           border: "none",

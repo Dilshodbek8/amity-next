@@ -3,31 +3,31 @@ import ShowcaseCard, { ShowcaseProps } from "../ShowcaseCard";
 import MySlider from "../../Slider";
 export default function Showcase() {
   const data = [
+    // {
+    //   img: "aboutCard.jfif",
+    //   title: "Inspiring adventure and confidence",
+    //   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit placerat sit purus molestie.",
+    //   link: "Apply",
+    //   href: "/apply",
+    // },
+    // {
+    //   img: "fakeNews.jfif",
+    //   title: "Inspiring adventure and confidence",
+    //   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit placerat sit purus molestie.",
+    //   link: "Apply",
+    //   href: "/apply",
+    // },
+    // {
+    //   img: "fakeNews.jfif",
+    //   title: "Inspiring adventure and confidence",
+    //   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit placerat sit purus molestie.",
+    //   link: "Apply",
+    //   href: "/apply",
+    // },
     {
-      img: "aboutCard.jfif",
-      title: "Inspiring adventure and confidence",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit placerat sit purus molestie.",
-      link: "Apply",
-      href: "/apply",
-    },
-    {
-      img: "fakeNews.jfif",
-      title: "Inspiring adventure and confidence",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit placerat sit purus molestie.",
-      link: "Apply",
-      href: "/apply",
-    },
-    {
-      img: "fakeNews.jfif",
-      title: "Inspiring adventure and confidence",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit placerat sit purus molestie.",
-      link: "Apply",
-      href: "/apply",
-    },
-    {
-      img: "fakeNews.jfif",
-      title: "Inspiring adventure and confidence",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit placerat sit purus molestie.",
+      img: "bg.JPG",
+      title: "Admission open for Academic year 2023-2024",
+      text: "Prepare in 3 months with amity pre-foundation course.",
       link: "Apply",
       href: "/apply",
     },

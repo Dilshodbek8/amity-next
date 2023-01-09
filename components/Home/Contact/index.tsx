@@ -8,19 +8,19 @@ export default function Contact() {
     {
       icon: "message.svg",
       title: "Email us:",
-      text: "admission@amityabudhabi.ae",
-      link: "mailto: admission@amityabudhabi.ae",
+      text: "admission@amity.uz",
+      link: "mailto: admission@amity.uz",
     },
     {
       icon: "tel.svg",
       title: "Call us:",
-      text: "Tel. +971 2503 9000",
-      link: "tel: +971 2503 9000",
+      text: "Tel. +998712079006",
+      link: "tel: +998712079006",
     },
     {
       icon: "location.svg",
       title: "Address:",
-      text: "admission@amityabudhabi.ae",
+      text: "Tashkent City, Street Labzak, Building-70, 100028, Uzbekistan",
     },
     {
       icon: "chat.svg",
@@ -35,7 +35,7 @@ export default function Contact() {
         <MainTitle
           title="Get In Touch"
           minititle="Contact Us"
-          subtitle="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit porro, aliquid reprehenderit iusto inventore sint beatae ipsum impedit in sit  illum distinctio sequi quisquam et hic tempore"
+          subtitle="If you have any questions, please don’t hesitate to contact us."
         />
         <div className={classes.cards}>
           <div className={classes.cards_left}>

@@ -1,0 +1,9 @@
+@import "./../../styles/variables.scss";
+.card {
+  position: relative;
+  &_img {
+    position: relative;
+    width: 200px;
+    aspect-ratio: 1;
+  }
+}

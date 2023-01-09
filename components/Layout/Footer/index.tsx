@@ -94,22 +94,30 @@ export default function Footer() {
           </div>
           <div className={classes.footer_bottom}>
             <div className={classes.footer_icon}>
-              <Image src={Facebook} layout="fill" alt="icon" />
+              <a href="https://www.facebook.com/amityuniversityuz">
+                <Image src={Facebook} layout="fill" alt="icon" />
+              </a>
             </div>
             <div className={classes.footer_icon}>
               <Image src={Twitter} layout="fill" alt="icon" />
             </div>
             <div className={classes.footer_icon}>
-              <Image src={LinkedIn} layout="fill" alt="icon" />
+              <a href="https://www.linkedin.com/school/amity-university-tashkent">
+                <Image src={LinkedIn} layout="fill" alt="icon" />
+              </a>
             </div>
             <div className={classes.footer_icon}>
-              <Image src={Instagram} layout="fill" alt="icon" />
+              <a href="https://www.instagram.com/amity_university_uz/">
+                <Image src={Instagram} layout="fill" alt="icon" />
+              </a>
             </div>
             <div className={classes.footer_icon}>
               <Image src={TikTok} layout="fill" alt="icon" />
             </div>
             <div className={classes.footer_icon}>
-              <Image src={Telegram} layout="fill" alt="icon" />
+              <a href="https://t.me/AmityUniversityTashkent">
+                <Image src={Telegram} layout="fill" alt="icon" />
+              </a>
             </div>
           </div>
         </div>

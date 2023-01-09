@@ -28,7 +28,7 @@ const routes = () => {
         href: "/amityWelcome",
       },
       {
-        rel: "Founders",
+        rel: "Leadership",
         href: "/founders",
       },
       {
