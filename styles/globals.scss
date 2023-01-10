@@ -87,20 +87,20 @@ a {
   }
 }
 .MuiButton-contained {
-  border-radius: 50px;
-  padding: 8px 25px;
-  font-weight: 600;
+  border-radius: 50px !important;
+  padding: 8px 25px !important;
+  font-weight: 600 !important;
 }
 .btn_main {
   .MuiButton-contained {
-    background-color: $mainColor;
-    color: $primaryColor;
+    background-color: $mainColor !important;
+    color: $primaryColor !important;
   }
 }
 .btn_primary {
   .MuiButton-contained {
-    background-color: $primaryColor;
-    color: $mainColor;
+    background-color: $primaryColor !important;
+    color: $mainColor !important;
   }
 }
 @media (max-width: 500px) {
