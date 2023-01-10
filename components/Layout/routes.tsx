@@ -21,6 +21,10 @@ const routes = () => {
         rel: "Apply",
         href: "/apply",
       },
+      {
+        rel: "Students Life",
+        href: "/studentsLife",
+      },
     ],
     about: [
       {

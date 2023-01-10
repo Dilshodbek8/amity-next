@@ -10,9 +10,9 @@ const navModal = (toggleDrawer: any) => {
     <div role="presentation" className={classes.nav}>
       <div className={classes.nav__links}>
         <div className={classes.nav__links_top}>
-          <form action="">
+          {/* <form action="">
             <input type="text" />
-          </form>
+          </form> */}
           <Image
             onClick={toggleDrawer("left", false)}
             src={exit}
@@ -26,7 +26,7 @@ const navModal = (toggleDrawer: any) => {
             <h2>About Us</h2>
             <ul>
               {links.about?.map((l: Links, i: number) => (
-                <li key={i}>
+                <li key={i} onClick={toggleDrawer("left", false)}>
                   <Link href={l.href}>{l.rel}</Link>
                 </li>
               ))}
@@ -36,7 +36,7 @@ const navModal = (toggleDrawer: any) => {
             <h2>Admission</h2>
             <ul>
               {links.admission?.map((l: Links, i: number) => (
-                <li key={i}>
+                <li key={i} onClick={toggleDrawer("left", false)}>
                   <Link href={l.href}>{l.rel}</Link>
                 </li>
               ))}
@@ -46,7 +46,7 @@ const navModal = (toggleDrawer: any) => {
             <h2>Information</h2>
             <ul>
               {links.information?.map((l: Links, i: number) => (
-                <li key={i}>
+                <li key={i} onClick={toggleDrawer("left", false)}>
                   <Link href={l.href}>{l.rel}</Link>
                 </li>
               ))}

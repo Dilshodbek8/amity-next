@@ -35,6 +35,13 @@
   &__langs {
     display: flex;
     gap: 1rem;
+    img {
+      transition: 0.5s;
+
+      &:hover {
+        scale: 1.2;
+      }
+    }
   }
 }
 

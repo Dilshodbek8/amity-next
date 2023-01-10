@@ -14,12 +14,14 @@ export default function Partners() {
   ];
   const elems = partners.map((p: string, i: number) => (
     <div className={classes.card_img} key={i}>
-      <Image
-        src={`/media/icons/${p}`}
-        alt="partners"
-        width={200}
-        height={100}
-      />
+      <a href="">
+        <Image
+          src={`/media/icons/${p}`}
+          alt="partners"
+          width={200}
+          height={100}
+        />
+      </a>
     </div>
   ));
   return (

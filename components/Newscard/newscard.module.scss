@@ -7,8 +7,10 @@
 
 .card {
   position: relative;
-  box-shadow: 0 2px 2px 1px rgb(228, 227, 227);
+  border-radius: 10px;
+  box-shadow: 0 4px 2px 1px rgb(228, 227, 227);
   transition: 0.3s;
+  overflow: hidden;
   &:hover {
     transform: translateY(-3px);
   }
