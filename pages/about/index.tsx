@@ -15,7 +15,6 @@ export default function About() {
       <MiniLayout title={"About"}>
         <div className={classes.body}>
           <MainTitle title="AMITY UNIVERSITY IN TASHKENT" />
-
           <p>
             Amity University in Tashkent was established by the Decree of the
             President of the Republic of Uzbekistan dated January 7, 2019 No
