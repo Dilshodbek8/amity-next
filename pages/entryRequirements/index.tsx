@@ -9,7 +9,7 @@ export default function News() {
   ];
   return (
     <>
-      <Header title={"Application Process"} />
+      <Header title={"Entry Requirements"} />
       <div className="container">
         <div className={classes.body}>
           <div className={classes.body_card}>
