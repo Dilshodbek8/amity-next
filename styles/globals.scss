@@ -18,6 +18,11 @@ a {
   width: 86%;
   margin: 0 auto;
 }
+.container2 {
+  max-width: 1280px;
+  width: 86%;
+  margin: 0 auto;
+}
 .primaryTab {
   .react-tabs__tab {
     background-color: $mainColor;
@@ -96,5 +101,10 @@ a {
   .MuiButton-contained {
     background-color: $primaryColor;
     color: $mainColor;
+  }
+}
+@media (max-width: 500px) {
+  .container2 {
+    width: 100%;
   }
 }

@@ -7,8 +7,8 @@ export default function News() {
     { href: "/campusTour", rel: "Campus Tour" },
     { href: "/transportServices", rel: "Transport Services" },
     { href: "/campusSafety", rel: "Campus Safety" },
-    { href: "/campusSports", rel: "Campus Sports" },
-    { href: "/campusLibrary", rel: "Campus Library" },
+    { href: "/campusSports", rel: "Sports" },
+    { href: "/campusLibrary", rel: "Library" },
   ];
   return (
     <>

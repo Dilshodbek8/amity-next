@@ -8,7 +8,7 @@ export default function MiniLayout({ title, children }: any) {
   return (
     <div className={classes.body}>
       <div className={classes.body_top}></div>
-      <div className="container">
+      <div className="container2">
         <div className={classes.body_bottom}>
           <div className={classes.body_bottom_c}>
             <Breadcrumb className={""} />
